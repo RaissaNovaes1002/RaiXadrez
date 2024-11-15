@@ -13,10 +13,11 @@ header{
     font-size: 32px;
     color: rgb(194, 232, 255);
     font-family: "Times New Roman", Times, serif"";
+    text-align: center
 }
 
 .chamada {
-    background: rgb(6, 35, 58);
+    background: rgb (6,35, 58);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -25,6 +26,7 @@ header{
 
 .chamada-texto {
     margin-right: -3%;
+    text-align: center
 }
 
 h1 {
@@ -46,15 +48,17 @@ img{
     display: flex;
     overflow-x: auto;
     gap: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 
 }
 
 .categoria {
+
     padding-left: 40px;
     padding-right: 40px;
     background: rgb(0, 0, 0);
     margin-bottom: 50px;
+    text-align: center
 }
 
 .categoria-videos img {
@@ -79,5 +83,37 @@ img{
 }
   
 .categoria h2 {
+    margin-bottom:40px;
     color:rgb(194, 232, 255);
 }
+
+.categoria1a {
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    background: rgb(83, 129, 178);
+    margin-bottom: 50px;
+    text-align: center
+
+}
+
+.tabela {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        width: 555px;
+        border-collapse: collapse;
+        margin: 40px auto;
+        
+    }
+    th, td {
+        border: 5px solid black;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(39, 46, 116);
+        color: white;
+    }
+    th {
+        background-color: rgb(149, 181, 210);
+        color: rgb(0, 0, 0);
+    }
